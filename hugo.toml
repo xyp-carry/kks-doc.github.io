@@ -1,7 +1,7 @@
 # baseURL = ''
 languageCode = 'zh'
 # 💡: 文档名字
-title = 'xxx 的文档'
+title = 'KKS'
 
 # (Optional) Set this to true to enable 'Last Modified by' date and git author
 #  information on 'doc' type pages.
@@ -17,7 +17,7 @@ disableKinds = ['taxonomy']
 [[menu.after]]
   name = '仓库地址'
   # 💡: 文档仓库地址
-  url = 'https://github.com/kern-crates/hugo-book-template'
+  url = 'https://github.com/xyp-carry/KKS'
   weight = 10
 
 [params]
