@@ -57,6 +57,14 @@ dify安装教程：https://github.com/langgenius/dify
 | `-g` | `--get` | flag | `False` | 获取未确认数据  |
 | `-c` | `--confirm` | flag | `False` | 根据文件确认数据 |
 
+##### 示例
+```bash
+client -s
+```
+
+![客户端启动示例](../../img/client_example_of_start.png)
+
+
 启动快捷键
 | 快捷键 | 说明 |
 | :---: | :--- |
