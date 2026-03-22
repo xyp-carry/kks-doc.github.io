@@ -13,7 +13,8 @@ dify安装教程：https://github.com/langgenius/dify
 安装地址：https://weixin.qq.com/updates?platform=windows&version=3.9.12
 
 #### 3. 下载KKS
-地址：https://github.com/xyp-carry/KKS-Client
+链接：https://pan.quark.cn/s/761e971d8de7?pwd=1jSu  
+提取码：1jSu  
 下载zip后直接解压到本地文件夹中。
 
 #### 4. 配置KKS
@@ -25,7 +26,7 @@ dify安装教程：https://github.com/langgenius/dify
         "url": "http://127.0.0.1/", # Dify API地址
         "knowledge_Authorization": "dataset-XXXXXXXXXXX", # Dify 知识库授权
         "chat_Authorization": "app-XXXXXXXXXXXXXXXXX", # Dify 聊天授权
-        "Custom": false,
+        "Custom": false, # 是否自定义知识库
         "rule": {
             "indexing_technique": "high_quality", # 索引 
             "doc_form": "text_model", # text_model和qa_model
@@ -56,6 +57,11 @@ dify安装教程：https://github.com/langgenius/dify
 | `-d` | `--dir` | str | `None` | 输出文件目录 |
 | `-g` | `--get` | flag | `False` | 获取未确认数据  |
 | `-c` | `--confirm` | flag | `False` | 根据文件确认数据 |
+| |`--createknowledge` | flag | `False` | 创建知识库 |
+| `-i` | `--Insert_data` | flag | `False` | 插入数据 |
+| `-f` | `--File` | str | `'Input.xlsx'` | 输入文件 |
+| `-a` | `--get_all_knowledge` | flag | `False` | 获取所有知识库 |
+| `-rm` | `--remove_knowledge` | flag | `False` | 删除知识库 |
 
 ##### 示例
 ```bash
