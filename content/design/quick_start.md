@@ -68,6 +68,8 @@ dify安装教程：https://github.com/langgenius/dify
 client -s
 ```
 
+注意开启时需要在微信中将群窗口单独打开，打开方式为在聊天列表中双击名片则会单独打开一个窗口。可以通过-`-name`参数指定窗口名称，`-k`参数指定知识库名称。有关知识库的配置，可以查看配置知识库一章的内容。 
+ 
 ![客户端启动示例](../../img/client_example_of_start.png)
 
 
