@@ -1,8 +1,15 @@
 ---
-title: 配置知识库
+title: 基础配置
 weight: 11
 bookToc: true
 ---
+
+# 配置Dify
+获取 Dify 知识库API key
+![获取API](../../img/get_dify_API.png)
+
+配置dify默认模型，后续在知识库创建中会使用，不设置会报错。从模型运营商中下载对应的运营商，并在默认模型设置的位置添加默认的embedding模型。
+![获取API](../../img/setting_dify.png)
 
 # 配置知识库
 可以选择多种配置模式:  
